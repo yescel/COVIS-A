@@ -90,4 +90,14 @@
         android:layout_alignEnd="@+id/etPassword"
         android:textSize="18sp" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtCovis"
+        android:layout_marginBottom="26dp"
+        android:layout_toLeftOf="@+id/txtCovis"
+        android:layout_toStartOf="@+id/txtCovis"
+        android:text="Probando" />
+
 </RelativeLayout>
