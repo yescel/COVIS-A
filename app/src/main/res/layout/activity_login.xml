@@ -95,8 +95,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/txtCovis"
-        android:layout_alignLeft="@+id/tvBienvenido"
-        android:layout_alignStart="@+id/tvBienvenido"
-        android:id="@+id/button2" />
+        android:layout_alignLeft="@+id/txtCovis"
+        android:layout_alignStart="@+id/txtCovis"
+        android:id="@+id/button" />
 
 </RelativeLayout>
