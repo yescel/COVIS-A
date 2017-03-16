@@ -90,21 +90,4 @@
         android:textSize="18sp"
         android:translationZ="@dimen/cardview_default_elevation" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView6"
-        android:layout_centerHorizontal="true"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/scarleth"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/txtCovis"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:text="scarleth" />
-
 </RelativeLayout>
