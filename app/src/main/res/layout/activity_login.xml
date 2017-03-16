@@ -97,6 +97,8 @@
         android:layout_above="@+id/txtCovis"
         android:layout_alignLeft="@+id/txtCovis"
         android:layout_alignStart="@+id/txtCovis"
-        android:id="@+id/button" />
+        android:id="@+id/button"
+        android:layout_alignRight="@+id/etUsuario"
+        android:layout_alignEnd="@+id/etUsuario" />
 
 </RelativeLayout>
