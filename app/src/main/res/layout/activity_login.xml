@@ -90,4 +90,13 @@
         android:layout_alignEnd="@+id/etPassword"
         android:textSize="18sp" />
 
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtCovis"
+        android:layout_alignLeft="@+id/txtCovis"
+        android:layout_alignStart="@+id/txtCovis"
+        android:id="@+id/button" />
+
 </RelativeLayout>
