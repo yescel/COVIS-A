@@ -11,4 +11,8 @@
     tools:context="com.tallerandroid.covis_a.DashboardActivity"
     android:background="@color/cardview_light_background">
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvPublicaciones" />
 </RelativeLayout>
