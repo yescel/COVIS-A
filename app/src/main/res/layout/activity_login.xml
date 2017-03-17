@@ -1,73 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1BDD8A"
+    android:background="@color/cardview_light_background"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.tallerandroid.covis_a.LoginActivity">
 
-    <EditText
-        android:id="@+id/txtEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/txtPassword"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="28dp"
-        android:ems="16"
-        android:fontFamily="sans-serif"
-        android:hint="Ejemplo@ejemplo.com"
-        android:inputType="textEmailAddress"
-        android:textColor="#FFFFFF" />
 
     <EditText
-        android:id="@+id/txtPassword"
+        android:id="@+id/etPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/txtEmail"
-        android:layout_alignStart="@+id/txtEmail"
-        android:layout_centerVertical="true"
-        android:ems="16"
-        android:fontFamily="sans-serif"
-        android:hint="Contraseña"
-        android:inputType="textPassword"
-        android:textColor="#FFFFFF" />
-
-    <Button
-        android:id="@+id/btnRegistrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/txtPassword"
+        android:layout_above="@+id/btnLogin"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:background="?android:attr/colorBackground"
-        android:ems="16"
-        android:text="Iniciar" />
+        android:layout_marginBottom="17dp"
+        android:background="@color/backgroudButton"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Password"
+        android:textColorHint="@color/colorPrimaryDark" />
 
-    <TextView
-        android:id="@+id/link_signup"
-        android:layout_width="fill_parent"
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/btnRegistrar"
-        android:layout_marginTop="22dp"
-        android:gravity="center"
-        android:text="¿No tienes cuenta aún? Crea una"
-        android:textSize="16dp" />
+        android:layout_above="@+id/etPassword"
+        android:layout_alignLeft="@+id/etPassword"
+        android:layout_alignStart="@+id/etPassword"
+        android:layout_marginBottom="19dp"
+        android:background="@color/backgroudButton"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:translationZ="@dimen/cardview_default_radius" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        app:srcCompat="@mipmap/logo" />
+        app:srcCompat="@mipmap/logo4" />
 
+    <TextView
+        android:id="@+id/txtCovis"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvBienvenido"
+        android:layout_centerHorizontal="true"
+        android:text="COVIS-A"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorLink="?attr/actionModeSplitBackground"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvBienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etUsuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:text="Bienvenido"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etPassword"
+        android:layout_alignLeft="@+id/etPassword"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/etPassword"
+        android:layout_alignStart="@+id/etPassword"
+        android:background="@color/colorAccent"
+        android:text="Iniciar Sesion"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:translationZ="@dimen/cardview_default_elevation" />
 
 </RelativeLayout>
