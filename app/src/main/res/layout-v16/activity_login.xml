@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1BDD8A">
@@ -14,7 +15,7 @@
         android:layout_marginBottom="28dp"
         android:ems="16"
         android:fontFamily="sans-serif"
-        android:hint="Ejemplo@ejemplo.com"
+        android:hint="@string/ejemplo1"
         android:inputType="textEmailAddress"
         android:textColor="#FFFFFF" />
 
@@ -27,7 +28,7 @@
         android:layout_centerVertical="true"
         android:ems="16"
         android:fontFamily="sans-serif"
-        android:hint="Contraseña"
+        android:hint="@string/contrasenia"
         android:inputType="textPassword"
         android:textColor="#FFFFFF" />
 
@@ -40,7 +41,7 @@
         android:layout_marginTop="60dp"
         android:background="?android:attr/colorBackground"
         android:ems="16"
-        android:text="Iniciar" />
+        android:text="@string/iniciar1" />
 
     <TextView
         android:id="@+id/link_signup"
@@ -51,8 +52,8 @@
         android:layout_below="@+id/btnRegistrar"
         android:layout_marginTop="22dp"
         android:gravity="center"
-        android:text="¿No tienes cuenta aún? Crea una"
-        android:textSize="16dp" />
+        android:text="@string/texto1"
+        android:textSize="16sp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -61,5 +62,7 @@
         android:layout_above="@+id/txtEmail"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="23dp"
-        app:srcCompat="@mipmap/logo" />
+        android:contentDescription=""
+        app:srcCompat="@mipmap/logo"
+        tools:ignore="ContentDescription" />
 </RelativeLayout>

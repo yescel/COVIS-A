@@ -8,4 +8,8 @@
     <string name="crear_cuenta">Crear cuenta</string>
     <string name="ejemplo">Ejemplo@ejemplo.com</string>
     <string name="repetir_contrase_a">Repetir contraseña</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="ejemplo1">Ejemplo@ejemplo.com</string>
+    <string name="iniciar1">Iniciar</string>
+    <string name="texto1">¿No tienes cuenta aún? Crea una</string>
 </resources>
