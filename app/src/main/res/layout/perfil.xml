@@ -44,7 +44,10 @@
                     <TabWidget
                         android:id="@android:id/tabs"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:overScrollMode="always"
+                        android:scrollbarStyle="insideOverlay" />
 
                     <FrameLayout
                         android:id="@android:id/tabcontent"
@@ -52,7 +55,7 @@
                         android:layout_height="match_parent">
 
                         <LinearLayout
-                            android:id="@+id/tab1"
+                            android:id="@+id/Informacion Personal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:orientation="vertical">
@@ -60,7 +63,7 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:id="@+id/tab2"
+                            android:id="@+id/Insignias"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:orientation="vertical">
@@ -68,7 +71,7 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:id="@+id/tab3"
+                            android:id="@+id/Proyectos"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:orientation="vertical">
