@@ -1,15 +1,5 @@
 <resources>
     <string name="app_name">COVIS-A</string>
-    <string name="contrase_a">Contraseña</string>
     <string name="ejemplo_ejemplo_com">Ejemplo@ejemplo.com</string>
-    <string name="iniciar">Iniciar</string>
     <string name="no_tienes_cuenta_a_n_crea_una">¿No tienes cuenta aún? Crea una</string>
-    <string name="contrase_aa">Contraseña</string>
-    <string name="crear_cuenta">Crear cuenta</string>
-    <string name="ejemplo">Ejemplo@ejemplo.com</string>
-    <string name="repetir_contrase_a">Repetir contraseña</string>
-    <string name="contrasenia">Contraseña</string>
-    <string name="ejemplo1">Ejemplo@ejemplo.com</string>
-    <string name="iniciar1">Iniciar</string>
-    <string name="texto1">¿No tienes cuenta aún? Crea una</string>
 </resources>
