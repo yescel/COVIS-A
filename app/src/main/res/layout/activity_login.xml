@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#1BDD8A">
+    android:layout_height="match_parent">
 
     <EditText
         android:id="@+id/txtEmail"
@@ -17,7 +16,7 @@
         android:fontFamily="sans-serif"
         android:hint="@string/ejemplo_ejemplo_com"
         android:inputType="textEmailAddress"
-        android:textColor="#FFFFFF"
+        android:textColor="@android:color/black"
         tools:ignore="UnusedAttribute" />
 
     <EditText
@@ -31,7 +30,7 @@
         android:fontFamily="sans-serif"
         android:hint="Contraseña"
         android:inputType="textPassword"
-        android:textColor="#FFFFFF"
+        android:textColor="@android:color/background_dark"
         tools:ignore="HardcodedText,UnusedAttribute" />
 
     <Button
@@ -40,10 +39,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtPassword"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:background="?android:attr/colorBackground"
+        android:layout_marginTop="62dp"
+        android:background="@drawable/boton_pulsado"
         android:ems="16"
         android:text="Iniciar"
+        android:visibility="visible"
         tools:ignore="HardcodedText" />
 
     <TextView
@@ -62,11 +62,11 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="130dp"
+        android:layout_above="@+id/txtEmail"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="14dp"
-        app:srcCompat="@mipmap/logo"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@mipmap/logo4"
         tools:ignore="ContentDescription" />
 
 </RelativeLayout>

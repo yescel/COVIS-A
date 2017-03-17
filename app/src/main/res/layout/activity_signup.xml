@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtEmail"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtEmail"
+        android:layout_marginTop="55dp"
+        android:ems="16"
+        android:fontFamily="sans-serif"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="16"
+        android:fontFamily="sans-serif"
+        android:hint="Ejemplo@ejemplo.com"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtEmail"
+        android:layout_alignStart="@+id/txtEmail"
+        android:layout_below="@+id/txtEmail"
+        android:layout_marginTop="21dp"
+        android:ems="16"
+        android:fontFamily="sans-serif"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/txtPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtPassword"
+        android:layout_alignStart="@+id/txtPassword"
+        android:layout_below="@+id/txtPassword"
+        android:layout_marginTop="23dp"
+        android:ems="16"
+        android:fontFamily="sans-serif"
+        android:hint="Repetir contraseña"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPassword2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/boton_pulsado"
+        android:ems="16"
+        android:text="Crear cuenta" />
+
+
+    <TextView
+        android:id="@+id/link_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:text="¿Ya eres usuario? Iniciar sesión"
+        android:textSize="16dip" />
+</RelativeLayout>
