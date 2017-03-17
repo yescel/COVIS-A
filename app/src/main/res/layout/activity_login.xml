@@ -88,6 +88,7 @@
         android:layout_alignStart="@+id/etPassword"
         android:layout_alignRight="@+id/etPassword"
         android:layout_alignEnd="@+id/etPassword"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:onClick="IniciaSesion" />
 
 </RelativeLayout>
