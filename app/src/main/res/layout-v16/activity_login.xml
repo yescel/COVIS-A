@@ -21,7 +21,7 @@
         android:layout_marginBottom="28dp"
         android:ems="16"
         android:fontFamily="sans-serif"
-        android:hint="Ejemplo@ejemplo.com"
+        android:hint="@string/ejemplo_ejemplo_com"
         android:inputType="textEmailAddress"
         android:textColor="#FFFFFF" />
 
@@ -34,7 +34,7 @@
         android:layout_centerVertical="true"
         android:ems="16"
         android:fontFamily="sans-serif"
-        android:hint="Contraseña"
+        android:hint="@string/contrase_a"
         android:inputType="textPassword"
         android:textColor="#FFFFFF" />
 
@@ -44,22 +44,22 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtPassword"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="90dp"
         android:background="?android:attr/colorBackground"
         android:ems="16"
-        android:text="Iniciar" />
+        android:text="@string/iniciar" />
 
     <TextView
         android:id="@+id/link_signup"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_below="@+id/btnRegistrar"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="39dp"
         android:gravity="center"
-        android:text="¿No tienes cuenta aún? Crea una"
-        android:textSize="16dp" />
+        android:text="@string/no_tienes_cuenta_a_n_crea_una"
+        android:textSize="16sp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -67,7 +67,8 @@
         android:layout_height="150dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        app:srcCompat="@mipmap/logo" />
+        app:srcCompat="@mipmap/logo"
+        tools:ignore="ContentDescription" />
 
 
 </RelativeLayout>
