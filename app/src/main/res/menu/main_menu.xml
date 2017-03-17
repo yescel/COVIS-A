@@ -8,7 +8,10 @@
         android:icon="@drawable/ic_search_black_24dp"
         android:title="Search"
         app:showAsAction="ifRoom" />
-    <item android:title="Perfil" />
+    <item
+        android:id="@+id/Perfil"
+        android:title="Perfil"
+        />
     <item android:title="Ver Ranking" />
     <item android:title="Comprar Licencia" />
     <item android:title="Actividades" />
