@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/app_bar_search"
         android:actionViewClass="android.support.v7.widget.SearchView"
@@ -10,8 +9,7 @@
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/Perfil"
-        android:title="Perfil"
-        />
+        android:title="Perfil" />
     <item android:title="Ver Ranking" />
     <item android:title="Comprar Licencia" />
     <item android:title="Actividades" />
