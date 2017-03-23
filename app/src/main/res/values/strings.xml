@@ -2,4 +2,6 @@
     <string name="app_name">COVIS-A</string>
     <string name="ejemplo_ejemplo_com">Ejemplo@ejemplo.com</string>
     <string name="no_tienes_cuenta_a_n_crea_una">¿No tienes cuenta aún? Crea una</string>
+    <string name="UserName">EcoFriendly</string>
+    <string name="EtiquetaNombre">Nombre: </string>
 </resources>
